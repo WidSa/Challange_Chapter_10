@@ -66,6 +66,11 @@ a {
   text-decoration: none;
 }
 
+nav,
+footer {
+  background-color: #090909;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

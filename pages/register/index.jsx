@@ -2,13 +2,13 @@ import { Container, Row } from "react-bootstrap";
 import Link from "next/link";
 import RegisterForm from "../../components/forms/RegisterForm";
 import Head from "next/head";
+import Layout from "@/components/layout";
 
 export default function Register() {
   return (
-    <>
+    <Layout>
       <Head>
         <title>Register Page</title>
-        <link rel="stylesheet" href="/styles/Register.css" />
       </Head>
       <div className="bg-image">
         <div className="container-fluid">
@@ -40,6 +40,6 @@ export default function Register() {
           </Row>
         </div>
       </div>
-    </>
+    </Layout>
   );
 }
